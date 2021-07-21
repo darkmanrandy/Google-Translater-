@@ -45,9 +45,9 @@ SOFTWARE.
 
 ## Support 🇮🇳
 <a href="https://t.me/tharamaanateambot">
-   <p> Telegram </p>
+   <p> Tharamaana Team Bot </p>
   </a>
-<a href="https://youtube.com/c/LNtechnical">
-   <p> YouTube </p>
+<a href="https://t.me/tendkotta">
+   <p> TENDKOTTA ❤️ </p>
   </a>
 
