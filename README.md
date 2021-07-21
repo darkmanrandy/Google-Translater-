@@ -15,14 +15,14 @@
 
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lntechnical2/Google-Translater-)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/darkmanrandy/Google-Translater-)
 
 ### License
 
 ```
 MIT License
 
-Copyright (c) 2021 Lntechnical
+Copyright (c) 2021 Tharamaana Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
