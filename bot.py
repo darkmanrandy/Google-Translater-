@@ -20,7 +20,7 @@ app = Client(
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you selected language__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/tharamaanateambot") ],               [InlineKeyboardButton("Subscribe 🧐", url="https://t.me/tendkotta") ]   ]  ) )
+	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you selected language__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/tharamaanateambot") ],               [InlineKeyboardButton("Share Your Friends", url="http://t.me/share/url?url=Join%20%28%40tharamaanateambot%29%20to%20download%20all%20tamil%20movies%2C%20series%2C%20songs%20and%20youtube%20videos%2E") ]   ]  ) )
                   
 
 
@@ -49,7 +49,7 @@ async def echo(client, message):
 	],
 	[ 
 	InlineKeyboardButton("Corsican",callback_data ="co"),
-	InlineKeyboardButton("Croatian",callback_data = "hr"),
+	InlineKeyboardButton("Tamil",callback_data = "ta"),
 	InlineKeyboardButton("Czech", callback_data = "cs"),
 	],
 	[ InlineKeyboardButton("Danish",callback_data = "da"),
@@ -109,7 +109,7 @@ async def translate_text(bot,update):
          InlineKeyboardButton("Tagalog (Filipino)",callback_data ='tl'),
          InlineKeyboardButton("Tajik",callback_data = "tg")
          ],
-         [InlineKeyboardButton("Tamil",callback_data = "ta"),
+         [InlineKeyboardButton("Croatian",callback_data = "hr"),
          InlineKeyboardButton("Tatar",callback_data = "tt"),
          InlineKeyboardButton("Telugu",callback_data = "te")
          ],
@@ -206,7 +206,7 @@ async def translate_text(bot,update):
 	],
 	[ 
 	InlineKeyboardButton("Corsican",callback_data ="co"),
-	InlineKeyboardButton("Croatian",callback_data = "hr"),
+	InlineKeyboardButton("Tamil",callback_data = "ta"),
 	InlineKeyboardButton("Czech", callback_data = "cs"),
 	],
 	[ InlineKeyboardButton("Danish",callback_data = "da"),
